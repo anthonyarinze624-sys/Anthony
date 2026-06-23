@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "paragraph changed.";
-}
-</script>
+
 </head>
 <body>
 
-<h2>Demo JavaScript in Head</h2>
+<h2>Demo JavaScript in Body</h2>
 
-<p id="demo">A Paragraph</p>
+<p id="demo">A paragraph</p>
+
 <button type="button"
 onclick="myFunction()">Try it</button>
+
+<script>
+
+function myFunction() {
+
+document.getElementById("demo").innerHTML = "paragraph changed.";
+}
+</script>
+
 
 </body>
 </html>
