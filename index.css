@@ -154,7 +154,7 @@ transform:translateY(0);
 
 .about {
     padding: 100px 12%;
-    background: #0A192F;
+    background: darkgray;
     text-align: center;
 }
 
@@ -177,7 +177,7 @@ transform:translateY(0);
 
 .skills {
     padding: 100px 12%;
-    background: #0A192F;
+    background: darkgray;
     text-align: center;
 }
 
