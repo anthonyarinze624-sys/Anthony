@@ -98,3 +98,15 @@ nav a:hover {
     background: white;
     transform: translateY(-3px);
 }
+
+/* Animated Circle */
+
+.circle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: gold;
+    animation: rotate 20s linear infinite;
+    opacity: 0.2;
+}
