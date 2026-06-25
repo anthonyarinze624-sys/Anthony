@@ -111,39 +111,39 @@ nav a:hover {
     opacity: 0.2;
 }
 
-@keyframes move{
+@keyframes move {
 
-from{
+ from {
 
 transform:translate(-120px,-80px);
 
-}
+ }
 
-to{
+ to {
 
 transform:translate(120px,80px);
 
-}
+ }
 
 }
 
-@keyframes fade{
+@keyframes fade {
 
-from{
+ from {
 
 opacity:0;
 
 transform:translateY(50px);
 
-}
+ }
 
-to{
+to {
 
 opacity:1;
 
 transform:translateY(0);
 
-}
+ }
 
 }
 
