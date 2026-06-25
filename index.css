@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #0A192F;
-    color: white;
+    background: darkgray;
+    color: #0A192F;
     overflow: hidden;
 }
 
@@ -17,9 +17,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 12%;
+    padding: 20px 12%;
     position: fixed;
-    width: 100%;
+    width: 100;
     background: #0A192F;
     backdrop-filter: blur(12px);
     z-index: 1000;
@@ -63,21 +63,21 @@ nav a:hover {
 .hero h1 {
     font-size: 70px;
     margin-bottom: 20px;
-    color: white;
+    color: #0A192F;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     animation: fadein 1s ease forwards;
 }
 
 .hero h2 {
     font-size: 30px;
-    color: white;
+    color: black;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     animation: fadein 1s ease forwards;
 }
 
 .hero p {
     font-size: 20px;
-    color: white;
+    color: #0A192F;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     animation: fadein 1s ease forwards;
 }
@@ -168,7 +168,8 @@ transform:translateY(0);
 .about p {
     font-size: 20px;
     margin: 0 auto;
-    color: white;
+    color: #0A192F;
+    font-weight: 700;
     max-width: 800px;
     line-height: 1.5;
 }
@@ -190,6 +191,7 @@ transform:translateY(0);
 
 .card {
     background: #0A192F;
+    color: white;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
@@ -198,7 +200,7 @@ transform:translateY(0);
 }
 .skills h2 {
     font-size: medium;
-    color: gold;
+    color: #0A192F;
     margin-bottom: 10px;
     text-shadow: #0A192F;
 }
