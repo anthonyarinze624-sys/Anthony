@@ -107,7 +107,7 @@ nav a:hover {
     height: 500px;
     border-radius: 50%;
     background: gold;
-    animation: ;move 10s infinite alternate;
+    animation: move 10s infinite alternate;
     opacity: 0.2;
 }
 
