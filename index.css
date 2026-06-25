@@ -47,3 +47,53 @@ nav a:hover {
     color: #0A192F;
     transform: translateY(-3px);
 }
+
+/* Hero section */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 12%;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fadein 1s ease forwards;
+}
+
+.hero h2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fadein 1s ease forwards;
+}
+
+.hero p {
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fadein 1s ease forwards;
+}
+
+.hero-btn {
+    background: gold;
+    color: #0A192F;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: #0A192F;
+    color: gold;
+}
