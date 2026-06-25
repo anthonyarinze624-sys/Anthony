@@ -159,7 +159,7 @@ transform:translateY(0);
 .about h1 {
     font-size: 50px;
     margin-bottom: 20px;
-    color: white;
+    color: gold;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -169,4 +169,28 @@ transform:translateY(0);
     color: white;
     max-width: 800px;
     line-height: 1.5;
+}
+
+/* skills section */
+
+.skills {
+    padding: 100px 12%;
+    background: #0A192F;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: gold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background: #0A192F;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
