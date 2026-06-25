@@ -149,3 +149,24 @@ transform:translateY(0);
 
 
 /* About section */
+
+.about {
+    padding: 100px 12%;
+    background: #0A192F;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about p {
+    font-size: 20px;
+    margin: 0 auto;
+    color: white;
+    max-width: 800px;
+    line-height: 1.5;
+}
