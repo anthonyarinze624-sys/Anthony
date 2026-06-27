@@ -204,3 +204,56 @@ transform:translateY(0);
     margin-bottom: 10px;
     text-shadow: #0A192F;
 }
+
+/* project */
+
+.project {
+    padding: 100px 12%;
+    background: darkgray;
+    text-align: center;
+}
+
+.project h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: gold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project p {
+    margin-bottom: 20px;
+    color: gold;
+}
+
+/* project Grid */
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* project card */
+
+.project-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.project-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.project-content h3 {
+    color: #0A2540;
+    margin-bottom: 10px;
+}
