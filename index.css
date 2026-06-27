@@ -314,3 +314,57 @@ footer {
     background: black;
     color: #aaa;
 }
+
+.whatsapp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 70px;
+    height:70px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+    text-decoration:none;
+    color:white;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    animation:pulse 2s infinite;
+    z-index:999;
+}
+
+.back-to-top {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: baseline;
+}
+
+/* Responsive */
+
+@media(max-width:768px) {
+
+nav {
+
+    flex-direction:column;
+    gap:20px;
+
+}
+
+nav ul {
+
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1 {
+    font-size:45px;
+}
+
+.hero p {
+    font-size:18px;
+}
+
+}
