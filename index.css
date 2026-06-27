@@ -223,13 +223,14 @@ transform:translateY(0);
 .project p {
     margin-bottom: 20px;
     color: gold;
+    font-size: 18px;
 }
 
 /* project Grid */
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
 }
 
@@ -240,7 +241,7 @@ transform:translateY(0);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
 .project-card:hover {
@@ -248,6 +249,7 @@ transform:translateY(0);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
+/* content */
 .project-content {
     padding: 20px;
     text-align: left;
@@ -256,4 +258,31 @@ transform:translateY(0);
 .project-content h3 {
     color: #0A2540;
     margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.project-content p {
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* Technology tags */
+
+.tech {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.tech span {
+    display: inline-block;
+    background: #0A2540;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin: 5px 5px 0 0;
 }
