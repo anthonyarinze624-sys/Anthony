@@ -246,7 +246,7 @@ transform:translateY(0);
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow:  rgba(0, 0, 0, 0.15);
 }
 
 /* content */
@@ -259,7 +259,7 @@ transform:translateY(0);
     color: #0A2540;
     margin-bottom: 10px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .project-content p {
@@ -285,4 +285,32 @@ transform:translateY(0);
     border-radius: 20px;
     font-size: 13px;
     margin: 5px 5px 0 0;
+}
+
+/* contact */
+
+.contact {
+    padding: 100px;
+    text-align: center;
+    background: white;
+}
+
+.contact h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: gold;
+}
+
+.contact h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/*footer */
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background: black;
+    color: #aaa;
 }
